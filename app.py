@@ -27,7 +27,7 @@ model = genai.GenerativeModel(
 
 chat = model.start_chat(history=[])
 
-st.image('img\gemini_logo.png', output_format='PNG', width=180)
+st.image('img/gemini_logo.png', output_format='PNG', width=180)
 
 st.divider()
 

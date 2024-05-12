@@ -37,6 +37,6 @@ Acesse no navegador o localhost no link: http://localhost:8501
 
 Basta solicitar uma query ou um dataset e ele irá processar e retornar a resposta.
 
-![query_interface](img\query_interface.png)
+![query_interface](img/query_interface.png)
 
-![dataset_interface](img\dataset_interface.png)
+![dataset_interface](img/dataset_interface.png)
