@@ -9,7 +9,7 @@ import streamlit as st
 
 conn = sqlite3.connect('development.db')
 
-genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
+genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
 
 model = genai.GenerativeModel(
     system_instruction='''
@@ -27,7 +27,7 @@ model = genai.GenerativeModel(
 
 chat = model.start_chat(history=[])
 
-st.image('gemini_logo.png', output_format='PNG', width=180)
+st.image('img\gemini_logo.png', output_format='PNG', width=180)
 
 st.divider()
 

@@ -17,9 +17,15 @@ Para acessar o ambiente virtual criado utilize o comando abaixo:
 
 ```.venv/Scripts/activate```
 
+Uma boa recomendação é atualizar o pip para a versão mais recente.
+
+```python.exe -m pip install --upgrade pip --no-cache-dir```
+
 Para instalar as dependências do projeto utilize o comando abaixo:
 
-```pip install -r requirements.txt```
+```pip install -q -U -r google.generativeai```
+
+```pip install streamlit```
 
 Para iniciar o projeto utilize o comando abaixo:
 
@@ -31,4 +37,6 @@ Acesse no navegador o localhost no link: http://localhost:8501
 
 Basta solicitar uma query ou um dataset e ele irá processar e retornar a resposta.
 
-![interface](interface.png)
+![query_interface](img\query_interface.png)
+
+![dataset_interface](img\dataset_interface.png)
