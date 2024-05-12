@@ -24,3 +24,11 @@ Para instalar as dependências do projeto utilize o comando abaixo:
 Para iniciar o projeto utilize o comando abaixo:
 
 ```streamlit run app.py```
+
+## Como Usar
+
+Acesse no navegador o localhost no link: http://localhost:8501
+
+Basta solicitar uma query ou um dataset e ele irá processar e retornar a resposta.
+
+![interface](interface.png)
