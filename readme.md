@@ -1,4 +1,4 @@
-# Projeto AI Studio Gemini
+# Projeto AI Gemini
 
 Este é um projeto de demonstração utilizando a API do Google Generative AI & streamlit.
 
