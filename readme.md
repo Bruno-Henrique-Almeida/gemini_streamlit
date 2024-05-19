@@ -2,14 +2,19 @@
 
 Este é um projeto de demonstração utilizando a API do Google Generative AI & streamlit.
 
-Com esse projeto um usuário mesmo sem conhecimento de linguagem de consulta poderia fazer perguntas em linguagem natural e escolher por exemplo receber um dataset ou uma query.
+1º Objetivo é criar uma aplicação web para que o usuário possa fazer perguntas em linguagem natural.
+
+2º Objetivo utiliizar a API do Google Generative AI para criar uma query SQLite seguindo a modelagem do banco de dados e que responda a pergunta do usuário.
+
+3º Objetivo é executar a consulta internamente de forma isolada e retornar a resposta para a pergunta do usário também em linguagem natural.
 
 ## Requisitos
-    Adicione sua API KEY no arquivo .env
+    Python 3.9 ou superior
+    Adicione sua Google API KEY no arquivo .env
 
 ## Instalação
 
-Para iniciar recomendo utilizar a criação de um ambiente virutal executando o comando python abaixo no terminal
+Para iniciar recomendo utilizar a criação de um ambiente virutal executando o comando python abaixo no terminal:
 
 ```python.exe -m venv .venv```
 
@@ -35,8 +40,12 @@ Para iniciar o projeto utilize o comando abaixo:
 
 Acesse no navegador o localhost no link: http://localhost:8501
 
-Basta solicitar uma query ou um dataset e ele irá processar e retornar a resposta.
+Basta escrever uma pergunta sobre as informações que precisar sobre fornecedores, clientes, produtos e vendas.
 
-![query_interface](https://raw.githubusercontent.com/Bruno-Henrique-Almeida/gemini_streamlit/main/img/dataset_interface.png)
+![exemplo_contatos](https://raw.githubusercontent.com/Bruno-Henrique-Almeida/gemini_streamlit/main/img/exemplo_contatos_cliente_fornecedor.png)
 
-![dataset_interface](https://raw.githubusercontent.com/Bruno-Henrique-Almeida/gemini_streamlit/main/img/query_interface.png)
+![exemplo_melhor_cliente](https://raw.githubusercontent.com/Bruno-Henrique-Almeida/gemini_streamlit/main/img/exemplo_melhor_cliente.png)
+
+![exemplo_melhor_produto_anual](https://raw.githubusercontent.com/Bruno-Henrique-Almeida/gemini_streamlit/main/img/exemplo_melhor_produto_anual.png)
+
+![exemplo_pior_produto](https://raw.githubusercontent.com/Bruno-Henrique-Almeida/gemini_streamlit/main/img/exemplo_pior_produto.png)
